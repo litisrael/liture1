@@ -6,3 +6,5 @@ const saludar = ((nom)  =>  `"buenas tardes" ${nom}`);
 console.log(saludar('babosos'))
 
 console.log(saludar('litvacks y mizrahis'))
+
+console.log(saludar('litvacks y mizrahis'))
