@@ -10,7 +10,7 @@ writeFile("./me.json", JSON.stringify(me),(err)=>{
         console.log(err)
         exit(1)
     }
-    readFile("./me.json", (err,data)=>{
+    readFile("./me.json", (err)=>{
         if(err)
         console.error(err)
         exit(2)
