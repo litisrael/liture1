@@ -10,12 +10,12 @@ writeFile("./me.json", JSON.stringify(me),(err)=>{
         console.log(err)
         exit(1)
     }
-    readFile("./me.json", (err)=>{
+    readFile("./me.json", (err, me)=>{
         if(err)
         console.error(err)
         exit(2)
     })
-    console.log("%s",data)
+    console.log("%s",me)
 
 })
 let i= 0
