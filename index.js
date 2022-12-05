@@ -8,4 +8,3 @@ console.log(saludar('babosos'))
 console.log(saludar('litvacks y mizrahis'))
 
 
-console.log(saludar('litvacks y mizrahis'))
