@@ -1,0 +1,3 @@
+nombre:isroel lit
+edad: 37
+hobiee: bike

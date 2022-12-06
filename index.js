@@ -5,7 +5,7 @@ const me={
     firstName: "isr",
     lastName: "lit"
 }
-writeFile("./me.json", JSON.stringify(me),(err)=>{
+writeFile("./prueba.json", JSON.stringify(me),(err)=>{
     if(err){
         console.log(err)
         exit(1)
