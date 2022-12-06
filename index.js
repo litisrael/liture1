@@ -3,6 +3,7 @@ import { exit } from 'node:process'
 
 const me={
     firstName: "isr",
+    jdnfsdnf: "sjdfj",
     lastName: "lit"
 }
 writeFile("./prueba.json", JSON.stringify(me),(err)=>{
